@@ -1,0 +1,6 @@
+[submodule "public/strappy/ccl"]
+	path = public/strappy/ccl
+	url = git@github.com:melechi/strappy-CCL.git
+[submodule "public/strappy/framework"]
+	path = public/strappy/framework
+	url = git@github.com:SpinifexGroup/strappy.git
