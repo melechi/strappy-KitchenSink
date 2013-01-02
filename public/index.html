@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Sign in &middot; Twitter Bootstrap</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<!-- Le styles -->
+		<link href="/css/bootstrap.css" rel="stylesheet">
+		<style type="text/css">
+			body {
+				padding-top: 40px;
+				padding-bottom: 40px;
+				background-color: #f5f5f5;
+			}
+
+			.form-signin {
+				max-width: 300px;
+				padding: 19px 29px 29px;
+				margin: 0 auto 20px;
+				background-color: #fff;
+				border: 1px solid #e5e5e5;
+				-webkit-border-radius: 5px;
+					 -moz-border-radius: 5px;
+								border-radius: 5px;
+				-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+					 -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+								box-shadow: 0 1px 2px rgba(0,0,0,.05);
+			}
+			.form-signin .form-signin-heading,
+			.form-signin .checkbox {
+				margin-bottom: 10px;
+			}
+			.form-signin input[type="text"],
+			.form-signin input[type="password"] {
+				font-size: 16px;
+				height: auto;
+				margin-bottom: 15px;
+				padding: 7px 9px;
+			}
+
+		</style>
+		<link href="/css/bootstrap-responsive.css" rel="stylesheet">
+
+		<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+		<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="container">
+
+			<form class="form-signin">
+				<h2 class="form-signin-heading">Please sign in</h2>
+				<input type="text" class="input-block-level" placeholder="Email address">
+				<input type="password" class="input-block-level" placeholder="Password">
+				<label class="checkbox">
+					<input type="checkbox" value="remember-me"> Remember me
+				</label>
+				<button class="btn btn-large btn-primary" type="submit">Sign in</button>
+			</form>
+
+		</div> <!-- /container -->
+
+		<!-- Le javascript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		
+		
+		<div style="display:none">
+			<!-- Le javascript
+			================================================== -->
+			<!-- Placed at the end of the document so the pages load faster -->
+			<script src="http://code.jquery.com/jquery-1.8.3.min.js">									</script>
+			<script type="text/javascript" src="js/bootstrap.min.js">  	    							</script>
+			<script src="https://raw.github.com/melechi/JS-Klass-Kit/master/bin/jskk.min-1.0.2.js">		</script>
+		
+			<script type="text/javascript" src="js/strappy/trait/ComponentConnector.js">		</script>
+			<script type="text/javascript" src="js/strappy/trait/signal/Send.js">				</script>
+			<script type="text/javascript" src="js/strappy/trait/signal/Receive.js">			</script>
+			<script type="text/javascript" src="js/strappy/trait/signal/Bindable.js">			</script>
+			<script type="text/javascript" src="js/strappy/Signal.js">							</script>
+			<script type="text/javascript" src="js/strappy/data/proxy/AbstractProxy.js">		</script>
+			<script type="text/javascript" src="js/strappy/data/proxy/Ajax.js">					</script>
+			<script type="text/javascript" src="js/strappy/data/proxy/BTL.js">					</script>
+			<script type="text/javascript" src="js/strappy/data/proxy/MemoryProxy.js">			</script>
+			<script type="text/javascript" src="js/strappy/data/BTL.js">						</script>
+			<script type="text/javascript" src="js/strappy/data/AbstractStore.js">				</script>
+			<script type="text/javascript" src="js/strappy/data/SingleModelStore.js">			</script>
+			<script type="text/javascript" src="js/strappy/data/MultiModelStore.js">			</script>
+			<script type="text/javascript" src="js/strappy/data/Transaction.js">				</script>
+			<script type="text/javascript" src="js/strappy/data/Queue.js">						</script>
+			<script type="text/javascript" src="js/strappy/data/stateful/Store.js">				</script>
+			<script type="text/javascript" src="js/strappy/SharedState.js">						</script>
+			<script type="text/javascript" src="js/strappy/StateMgr.js">						</script>
+			<script type="text/javascript" src="js/strappy/mvc/Model.js">						</script>
+			<script type="text/javascript" src="js/strappy/mvc/ViewCache.js">					</script>
+			<script type="text/javascript" src="js/strappy/mvc/View.js">						</script>
+			<script type="text/javascript" src="js/strappy/mvc/Controller.js">					</script>
+			<script type="text/javascript" src="js/strappy/mvc/stateful/Controller.js">			</script>
+			<script type="text/javascript" src="js/strappy/mvc/stateful/Model.js">				</script>
+			<script type="text/javascript" src="js/strappy/RadioTower.js">						</script>
+			<script type="text/javascript" src="js/strappy/InitQueue.js">						</script>
+			<script type="text/javascript" src="js/strappy/Component.js">						</script>
+			<script type="text/javascript" src="js/strappy/ShareMgr.js">						</script>
+			<script type="text/javascript" src="js/strappy/Strappy.js">							</script>
+
+			<script type="text/javascript" src="strappy/ccl/CCL.js">											</script>
+
+
+			<script type="text/javascript" src="strappy/ccl/trait/Containable.js">								</script>
+			<script type="text/javascript" src="strappy/ccl/trait/Animatable.js">								</script>
+			<script type="text/javascript" src="strappy/ccl/trait/Pluploadable.js">								</script>
+
+			<script type="text/javascript" src="strappy/ccl/component/application/Controller.js">				</script>
+			<script type="text/javascript" src="strappy/ccl/controller/Router.js">								</script>
+
+			<script type="text/javascript" src="strappy/ccl/component/container/Container.js">					</script>
+			<script type="text/javascript" src="strappy/ccl/component/container/controller/State.js">			</script>
+			<script type="text/javascript" src="strappy/ccl/component/container/controller/AutoLayout.js">		</script>
+			<script type="text/javascript" src="strappy/ccl/component/container/controller/CardLayout.js">		</script>
+			<script type="text/javascript" src="strappy/ccl/component/container/controller/HTMLLayout.js">		</script>
+			<script type="text/javascript" src="strappy/ccl/component/container/view/Default.js">				</script>
+			<script type="text/javascript" src="strappy/ccl/component/container/store/State.js">				</script>
+
+			<!-- COMPONENT - Application -->
+			<script type="text/javascript" src="Project/component/application/Application.js">			</script>
+			<script type="text/javascript" src="Project/component/application/store/State.js">			</script>
+			<script type="text/javascript" src="Project/component/application/controller/Default.js">	</script>
+			<script type="text/javascript" src="Project/component/application/controller/State.js">		</script>
+			<script type="text/javascript" src="Project/component/application/view/Default.js">			</script>
+
+			
+			<script type="text/javascript">
+				$(document).ready
+				(
+					function()
+					{
+						$application=new Project.component.Application();
+						$application.configure({attachTo:'body'});
+					}
+				);
+			</script>
+		</div>
+	</body>
+</html>
