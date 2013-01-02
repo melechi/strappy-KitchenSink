@@ -4,3 +4,9 @@
 [submodule "public/strappy/framework"]
 	path = public/strappy/framework
 	url = git@github.com:SpinifexGroup/strappy.git
+[submodule "public/strappy/foo"]
+	path = public/strappy/foo
+	url = git@github.com:SpinifexGroup/strappy.git
+[submodule "public/strappy/lib"]
+	path = public/strappy/lib
+	url = git@github.com:SpinifexGroup/strappy.git
